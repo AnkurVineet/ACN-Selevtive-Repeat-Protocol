@@ -18,12 +18,12 @@ Implementation of a modified version of a Selective Repeat (SR) sliding window p
 Sample Output:
 a) Client program displays the packet_no of each data packet transmitted including retransmitted packets and ack_no of each ACK packet received. Also, it displays a message to indicate for which packet no. Timeout (RTO) occurred. A sample output is shown below:
 
-SEND PACKET 13 : BASE 11
-RECEIVE ACK 11 : BASE 12
-TIMEOUT 12
-SEND PACKET 12 : BASE 12
-SEND PACKET 14 : BASE 12
-RECEIVE ACK 12 : BASE 13
+SEND PACKET 13 : BASE 11  <br>
+RECEIVE ACK 11 : BASE 12  <br>
+TIMEOUT 12<br>
+SEND PACKET 12 : BASE 12<br>
+SEND PACKET 14 : BASE 12<br>
+RECEIVE ACK 12 : BASE 13<br>
 
 b) Server program displays packet_no of each packet received along with the information whether it is Dropped or Accepted. Also, displays ack_no of each ACK packet transmitted and window BASE value. A sample output is shown below:
 
