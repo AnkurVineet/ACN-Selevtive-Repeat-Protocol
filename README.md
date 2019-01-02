@@ -15,7 +15,7 @@ Implementation of a modified version of a Selective Repeat (SR) sliding window p
 11. Client repeats the Steps 5-10 to send the entire file to the server.
 12. After entire file is transferred, client and server close the connection.
 
-Sample Output:
+Sample Output:<br>
 a) Client program displays the packet_no of each data packet transmitted including retransmitted packets and ack_no of each ACK packet received. Also, it displays a message to indicate for which packet no. Timeout (RTO) occurred. A sample output is shown below:
 
 SEND PACKET 13 : BASE 11  <br>
