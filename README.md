@@ -27,7 +27,7 @@ RECEIVE ACK 12 : BASE 13<br>
 
 b) Server program displays packet_no of each packet received along with the information whether it is Dropped or Accepted. Also, displays ack_no of each ACK packet transmitted and window BASE value. A sample output is shown below:
 
-RECEIVE PACKET 12 : DROP : BASE 11
-RECEIVE PACKET 13 : ACCEPT : BASE 11
-RECEIVE PACKET 12 : ACCEPT : BASE 12
-SEND ACK 12
+RECEIVE PACKET 12 : DROP : BASE 11<br>
+RECEIVE PACKET 13 : ACCEPT : BASE 11<br>
+RECEIVE PACKET 12 : ACCEPT : BASE 12<br>
+SEND ACK 12<br>
